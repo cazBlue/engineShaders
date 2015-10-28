@@ -26,7 +26,6 @@
                 return fixed4 (i.color, 1);
             }
             ENDCG
-
         }
     }
 }
