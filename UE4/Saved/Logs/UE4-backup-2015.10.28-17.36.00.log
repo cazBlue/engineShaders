@@ -1,0 +1,309 @@
+﻿Log file open, 10/28/15 17:33:00
+LogInit:Display: Running engine for game: UE4
+LogInit: Version: 4.7.4-2497108+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar 31 2015 09:40:25
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine 4/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.10.28-06.33.00:814][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.10.28-06.33.00:871][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.10.28-06.33.00:888][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.28-06.33.00:902][  0]LogInit: Object subsystem initialized
+[2015.10.28-06.33.00:904][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.10.28-06.33.00:904][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/callan.winfield/Documents/unityShaders/UE4/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.28-06.33.00:904][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.10.28-06.33.00:904][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/callan.winfield/Documents/unityShaders/UE4/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.28-06.33.00:904][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.10.28-06.33.00:904][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/callan.winfield/Documents/unityShaders/UE4/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.28-06.33.00:905][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.28-06.33.00:905][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.28-06.33.00:914][  0]LogInit: Computer: AIE_HEATH
+[2015.10.28-06.33.00:914][  0]LogInit: User: callanwinfield
+[2015.10.28-06.33.00:914][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.28-06.33.00:914][  0]LogInit: High frequency timer resolution =3.515654 MHz
+[2015.10.28-06.33.00:914][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx) Virtual=8192.0GB
+[2015.10.28-06.33.00:914][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.28-06.33.00:914][  0]LogMemory: Process Physical Memory: 48.22 MB used, 48.22 MB peak
+[2015.10.28-06.33.00:914][  0]LogMemory: Process Virtual Memory: 24.40 MB used, 24.40 MB peak
+[2015.10.28-06.33.00:914][  0]LogMemory: Physical Memory: 12168.02 MB used, 32631.33 MB total
+[2015.10.28-06.33.00:914][  0]LogMemory: Virtual Memory: 277.45 MB used, 8388608.00 MB total
+[2015.10.28-06.33.00:950][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.10.28-06.33.00:950][  0]LogD3D11RHI: Adapter has 4010MB of dedicated video memory, 0MB of dedicated system memory, and 16059MB of shared system memory, 2 output[s]
+[2015.10.28-06.33.00:950][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.28-06.33.00:961][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.28-06.33.00:970][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.28-06.33.01:018][  0]LogTextLocalizationManager: The requested culture ('en_AU') has no localization data; parent culture's ('en') localization data will be used.
+[2015.10.28-06.33.01:071][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Unreal Engine 4/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Unreal Engine 4/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.10.28-06.33.01:071][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Unreal Engine 4/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Unreal Engine 4/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.10.28-06.33.01:138][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.28-06.33.03:009][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.28-06.33.03:383][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.28-06.33.03:430][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.28-06.33.03:461][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/callan.winfield/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.10.28-06.33.03:461][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/callan.winfield/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.10.28-06.33.03:461][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/callan.winfield/Documents/unityShaders/UE4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.28-06.33.03:461][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.28-06.33.03:564][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.28-06.33.03:575][  0]LogDerivedDataCache: Using Local data cache path C:/Users/callan.winfield/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.28-06.33.03:806][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.28-06.33.03:806][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.28-06.33.04:082][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.28-06.33.04:137][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.10.28-06.33.04:713][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.28-06.33.04:886][  0]SourceControl: Info Source control is disabled
+[2015.10.28-06.33.04:886][  0]SourceControl: Info Source control is disabled
+[2015.10.28-06.33.04:886][  0]SourceControl: Info Source control is disabled
+[2015.10.28-06.33.04:886][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.10.28-06.33.04:886][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.10.28-06.33.04:893][  0]SourceControl: Info Source control is disabled
+[2015.10.28-06.33.05:023][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.10.28-06.33.05:023][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.10.28-06.33.05:087][  0]LogEngine: Initializing Engine...
+[2015.10.28-06.33.07:295][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.28-06.33.07:302][  0]LogInit: FAudioDevice initialized.
+[2015.10.28-06.33.07:330][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.28-06.33.07:348][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/callan.winfield/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.10.28-06.33.07:352][  0]LogInit: Texture streaming: Enabled
+[2015.10.28-06.33.07:419][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.28-06.33.07:419][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.4-2497108+++depot+UE4-Releases+4.7
+[2015.10.28-06.33.07:419][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.4-2497108+++depot+UE4-Releases+4.7
+[2015.10.28-06.33.07:419][  0]LogAnalytics: SetUserId 8b388aae41911fdd0e6de4b97309e0b0||998f2bff-53d0-478e-803a-d99627f333ab
+[2015.10.28-06.33.07:419][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.10.28-06.33.07:437][  0]LogInit: Transaction tracking system initialized
+[2015.10.28-06.33.07:554][  0]BlueprintLog: New page: Editor Load
+[2015.10.28-06.33.07:581][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2015.10.28-06.33.07:581][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.10.28-06.33.07:958][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.28-06.33.08:221][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.28-06.33.08:405][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.10.28-06.33.08:406][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.10.28-06.33.08:409][  0]LogConsoleResponse:Display: 
+[2015.10.28-06.33.08:503][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.28-06.33.08:605][  0]SourceControl: Info Source control is disabled
+[2015.10.28-06.33.08:605][  0]Cmd: MAP LOAD FILE="../../../../../../Users/callan.winfield/Documents/unityShaders/UE4/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.28-06.33.08:605][  0]LightingResults: New page: Lighting Build
+[2015.10.28-06.33.08:614][  0]MapCheck: New page: Map Check
+[2015.10.28-06.33.08:614][  0]LightingResults: New page: Lighting Build
+[2015.10.28-06.33.08:620][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000134FCC20
+[2015.10.28-06.33.09:130][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.28-06.33.09:133][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.10.28-06.33.09:133][  0]Cmd: MAP CHECKDEP
+[2015.10.28-06.33.09:133][  0]MapCheck: New page: Minimal_Default - 29 Oct 2015 4:33:09 am
+[2015.10.28-06.33.09:192][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.786ms to complete.
+[2015.10.28-06.33.09:192][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.587
+[2015.10.28-06.33.09:333][  0]LogCollectionManager: Loaded 0 collections in 0.001269 seconds
+[2015.10.28-06.33.09:342][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 1696 classes and 261 folders.
+[2015.10.28-06.33.09:366][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.10.28-06.33.09:378][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2015.10.28-06.33.09:415][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.28-06.33.09:416][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.10.28-06.33.09:421][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.28-06.33.09:445][  0]LogLoad: Full Startup: 10.29 seconds (BP compile: 0.06 seconds)
+[2015.10.28-06.33.09:570][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.10.28-06.33.09:674][  0]LogRenderer:Warning: Reallocating scene render targets to support 1056x584 (Frame:3).
+[2015.10.28-06.33.09:835][  3]LogAssetRegistry: Asset discovery search completed in 2.2645 seconds
+[2015.10.28-06.33.32:536][634]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.10.28-06.33.40:294][290]LogMaterial: Missing cached shader map for material M_Basic_Wall, compiling. 
+[2015.10.28-06.33.40:322][290]LogStaticMesh: Building static mesh Pillar_50x500...
+[2015.10.28-06.33.40:322][290]LogStaticMesh: Built static mesh [0.498911ms] /Game/StarterContent/Architecture/Pillar_50x500.Pillar_50x500
+[2015.10.28-06.33.40:329][290]LogMaterial: Missing cached shader map for material M_AssetPlatform, compiling. 
+[2015.10.28-06.33.40:336][290]LogStaticMesh: Building static mesh SM_AssetPlatform...
+[2015.10.28-06.33.40:366][290]LogStaticMesh: Built static mesh [30.040215ms] /Game/StarterContent/Architecture/SM_AssetPlatform.SM_AssetPlatform
+[2015.10.28-06.33.40:385][290]LogStaticMesh: Building static mesh Wall_400x200...
+[2015.10.28-06.33.40:385][290]LogStaticMesh: Built static mesh [0.418983ms] /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200
+[2015.10.28-06.33.40:393][290]LogStaticMesh: Building static mesh Wall_400x300...
+[2015.10.28-06.33.40:393][290]LogStaticMesh: Built static mesh [0.389117ms] /Game/StarterContent/Architecture/Wall_400x300.Wall_400x300
+[2015.10.28-06.33.40:402][290]LogStaticMesh: Building static mesh Wall_400x400...
+[2015.10.28-06.33.40:402][290]LogStaticMesh: Built static mesh [0.386557ms] /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400
+[2015.10.28-06.33.40:409][290]LogStaticMesh: Building static mesh Wall_500x500...
+[2015.10.28-06.33.40:411][290]LogStaticMesh: Built static mesh [1.774065ms] /Game/StarterContent/Architecture/Wall_500x500.Wall_500x500
+[2015.10.28-06.33.40:417][290]LogStaticMesh: Building static mesh Wall_Door_400x300...
+[2015.10.28-06.33.40:417][290]LogStaticMesh: Built static mesh [0.472458ms] /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300
+[2015.10.28-06.33.40:424][290]LogStaticMesh: Building static mesh Wall_Door_400x400...
+[2015.10.28-06.33.40:424][290]LogStaticMesh: Built static mesh [0.742109ms] /Game/StarterContent/Architecture/Wall_Door_400x400.Wall_Door_400x400
+[2015.10.28-06.33.40:429][290]LogStaticMesh: Building static mesh Wall_Window_400x300...
+[2015.10.28-06.33.40:430][290]LogStaticMesh: Built static mesh [0.593631ms] /Game/StarterContent/Architecture/Wall_Window_400x300.Wall_Window_400x300
+[2015.10.28-06.33.40:434][290]LogStaticMesh: Building static mesh Wall_Window_400x400...
+[2015.10.28-06.33.40:435][290]LogStaticMesh: Built static mesh [0.971370ms] /Game/StarterContent/Architecture/Wall_Window_400x400.Wall_Window_400x400
+[2015.10.28-06.33.40:439][290]LogAudioDerivedData:Display: Building compressed audio format OGG wave Collapse01...
+[2015.10.28-06.33.40:487][290]LogAudioDerivedData:Display: Building compressed audio format OGG wave Collapse02...
+[2015.10.28-06.33.40:549][290]LogAudioDerivedData:Display: Building compressed audio format OGG wave Explosion01...
+[2015.10.28-06.33.40:577][290]LogAudioDerivedData:Display: Building compressed audio format OGG wave Explosion02...
+[2015.10.28-06.33.40:615][290]LogAudioDerivedData:Display: Building compressed audio format OGG wave Fire01...
+[2015.10.28-06.33.40:688][290]LogAudioDerivedData:Display: Building compressed audio format OGG wave Fire_Sparks01...
+[2015.10.28-06.33.40:793][290]LogAudioDerivedData:Display: Building compressed audio format OGG wave Light01...
+[2015.10.28-06.33.40:843][290]LogAudioDerivedData:Display: Building compressed audio format OGG wave Light02...
+[2015.10.28-06.33.40:896][290]LogAudioDerivedData:Display: Building compressed audio format OGG wave Smoke01...
+[2015.10.28-06.33.40:961][290]LogAudioDerivedData:Display: Building compressed audio format OGG wave Starter_Music01...
+[2015.10.28-06.33.41:916][290]LogAudioDerivedData:Display: Building compressed audio format OGG wave Steam01...
+[2015.10.28-06.33.42:154][290]LogTexture:Display: Building textures: T_Lamp_M (AutoDXT)
+[2015.10.28-06.33.43:593][290]LogTexture:Display: Building textures: T_Lamp_N (BC5)
+[2015.10.28-06.33.43:937][290]LogMaterial: Missing cached shader map for material M_Lamp, compiling. 
+[2015.10.28-06.33.43:946][290]LogStaticMesh: Building static mesh SM_Lamp_Ceiling...
+[2015.10.28-06.33.43:962][290]LogStaticMesh: Built static mesh [15.646306ms] /Game/StarterContent/Props/SM_Lamp_Ceiling.SM_Lamp_Ceiling
+[2015.10.28-06.33.44:072][290]LogTexture:Display: Building textures: T_Burst_M (AutoDXT)
+[2015.10.28-06.33.44:189][290]LogMaterial: Missing cached shader map for material M_Burst, compiling. 
+[2015.10.28-06.33.44:330][290]LogTexture:Display: Building textures: T_Explosion_SubUV (AutoDXT)
+[2015.10.28-06.33.45:976][290]LogMaterial: Missing cached shader map for material M_explosion_subUV, compiling. 
+[2015.10.28-06.33.45:984][290]LogMaterial: Missing cached shader map for material m_flare_01, compiling. 
+[2015.10.28-06.33.46:120][290]LogTexture:Display: Building textures: T_Smoke_SubUV (AutoDXT)
+[2015.10.28-06.33.48:996][290]LogTexture:Display: Building textures: T_Smoke_Tiled_D (AutoDXT)
+[2015.10.28-06.33.49:034][290]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2015.10.28-06.33.49:055][290]LogMaterial: Missing cached shader map for material M_radial_ramp, compiling. 
+[2015.10.28-06.33.49:076][290]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2015.10.28-06.33.49:238][290]LogMaterial: Missing cached shader map for material M_Radial_Gradient, compiling. 
+[2015.10.28-06.33.49:270][290]LogTexture:Display: Building textures: T_Fire_SubUV (AutoDXT)
+[2015.10.28-06.33.49:586][290]LogTexture:Display: Building textures: T_Fire_Tiled_D (AutoDXT)
+[2015.10.28-06.33.49:830][290]LogMaterial: Missing cached shader map for material M_Fire_SubUV, compiling. 
+[2015.10.28-06.33.49:890][290]LogTexture:Display: Building textures: T_Water_N (BC5)
+[2015.10.28-06.33.50:326][290]LogMaterial: Missing cached shader map for material M_Heat_Distortion, compiling. 
+[2015.10.28-06.33.50:351][290]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2015.10.28-06.33.50:454][290]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2015.10.28-06.33.50:528][290]LogTexture:Display: Building textures: T_Spark_Core (AutoDXT)
+[2015.10.28-06.33.50:586][290]LogMaterial: Missing cached shader map for material M_Spark, compiling. 
+[2015.10.28-06.33.50:601][290]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2015.10.28-06.33.50:683][290]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2015.10.28-06.33.50:782][290]LogStaticMesh: Building static mesh SM_Lamp_Wall...
+[2015.10.28-06.33.50:789][290]LogStaticMesh: Built static mesh [7.038235ms] /Game/StarterContent/Props/SM_Lamp_Wall.SM_Lamp_Wall
+[2015.10.28-06.33.51:305][290]LogMaterial: Missing cached shader map for material M_LightStage_Arrows, compiling. 
+[2015.10.28-06.33.51:308][290]LogMaterial: Missing cached shader map for material M_LightStage_Skybox_Master, compiling. 
+[2015.10.28-06.33.51:311][290]LogMaterial: Missing cached shader map for material M_LightStage_Skybox_Master, compiling. 
+[2015.10.28-06.33.51:315][290]LogStaticMesh: Building static mesh SM_Arrows...
+[2015.10.28-06.33.51:365][290]LogStaticMesh: Built static mesh [50.212849ms] /Game/StarterContent/Blueprints/Assets/SM_Arrows.SM_Arrows
+[2015.10.28-06.33.52:084][290]LogTexture:Display: Building textures: HDRI_Epic_Courtyard_Daylight (RGBA16F)
+[2015.10.28-06.34.11:293][290]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.10.28-06.34.11:298][290]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.10.28-06.34.11:299][290]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.10.28-06.34.11:309][290]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.10.28-06.34.11:315][290]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.10.28-06.34.11:317][290]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2015.10.28-06.34.11:331][290]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2015.10.28-06.34.11:333][290]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.10.28-06.34.11:334][290]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2015.10.28-06.34.11:336][290]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.10.28-06.34.11:914][290]LogTexture:Display: Building textures: T_Brick_Clay_Beveled_D (AutoDXT)
+[2015.10.28-06.34.15:230][290]LogTexture:Display: Building textures: T_Brick_Clay_Beveled_M (AutoDXT)
+[2015.10.28-06.34.18:683][290]LogTexture:Display: Building textures: T_Brick_Clay_Beveled_N (BC5)
+[2015.10.28-06.34.19:107][290]LogMaterial: Missing cached shader map for material M_Brick_Clay_Beveled, compiling. 
+[2015.10.28-06.34.19:248][290]LogTexture:Display: Building textures: T_Brick_Clay_New_M (AutoDXT)
+[2015.10.28-06.34.23:138][290]LogTexture:Display: Building textures: T_Brick_Clay_New_N (BC5)
+[2015.10.28-06.34.23:722][290]LogTexture:Display: Building textures: T_Brick_Clay_New_D (AutoDXT)
+[2015.10.28-06.34.26:909][290]LogTexture:Display: Building textures: T_Detail_Rocky_N (BC5)
+[2015.10.28-06.34.27:013][290]LogMaterial: Missing cached shader map for material M_Brick_Clay_New, compiling. 
+[2015.10.28-06.34.27:239][290]LogTexture:Display: Building textures: T_Brick_Clay_Old_D (AutoDXT)
+[2015.10.28-06.34.30:941][290]LogTexture:Display: Building textures: T_Brick_Clay_Old_N (BC5)
+[2015.10.28-06.34.31:508][290]LogTexture:Display: Building textures: T_Perlin_Noise_M (AutoDXT)
+[2015.10.28-06.34.34:620][290]LogMaterial: Missing cached shader map for material M_Brick_Clay_Old, compiling. 
+[2015.10.28-06.34.34:767][290]LogTexture:Display: Building textures: T_Brick_Cut_Stone_D (AutoDXT)
+[2015.10.28-06.34.38:450][290]LogTexture:Display: Building textures: T_Brick_Cut_Stone_N (BC5)
+[2015.10.28-06.34.38:840][290]LogMaterial: Missing cached shader map for material M_Brick_Cut_Stone, compiling. 
+[2015.10.28-06.34.39:017][290]LogTexture:Display: Building textures: T_Brick_Hewn_Stone_D (AutoDXT)
+[2015.10.28-06.34.43:326][290]LogTexture:Display: Building textures: T_Brick_Hewn_Stone_M (AutoDXT)
+[2015.10.28-06.34.46:789][290]LogTexture:Display: Building textures: T_Brick_Hewn_Stone_N (BC5)
+[2015.10.28-06.34.47:223][290]LogMaterial: Missing cached shader map for material M_Brick_Hewn_Stone, compiling. 
+[2015.10.28-06.34.47:270][290]LogTexture:Display: Building textures: T_Ceramic_Tile_M (DXT1)
+[2015.10.28-06.34.48:114][290]LogTexture:Display: Building textures: T_Ceramic_Tile_N (BC5)
+[2015.10.28-06.34.48:679][290]LogTexture:Display: Building textures: T_Rock_Marble_Polished_D (AutoDXT)
+[2015.10.28-06.34.50:644][290]LogMaterial: Missing cached shader map for material M_Ceramic_Tile_Checker, compiling. 
+[2015.10.28-06.34.50:794][290]LogTexture:Display: Building textures: T_CobbleStone_Pebble_D (AutoDXT)
+[2015.10.28-06.34.55:153][290]LogTexture:Display: Building textures: T_CobbleStone_Pebble_M (AutoDXT)
+[2015.10.28-06.34.55:954][290]LogTexture:Display: Building textures: T_CobbleStone_Pebble_N (BC5)
+[2015.10.28-06.34.56:413][290]LogMaterial: Missing cached shader map for material M_CobbleStone_Pebble, compiling. 
+[2015.10.28-06.34.56:460][290]LogTexture:Display: Building textures: T_CobbleStone_Rough_D (AutoDXT)
+[2015.10.28-06.34.57:613][290]LogTexture:Display: Building textures: T_Gradinet_01 (AutoDXT)
+[2015.10.28-06.34.57:827][290]LogTexture:Display: Building textures: T_Rock_Smooth_Granite_D (AutoDXT)
+[2015.10.28-06.35.01:302][290]LogTexture:Display: Building textures: T_CobbleStone_Rough_N (AutoDXT)
+[2015.10.28-06.35.02:093][290]LogMaterial: Missing cached shader map for material M_CobbleStone_Rough, compiling. 
+[2015.10.28-06.35.02:255][290]LogTexture:Display: Building textures: T_CobbleStone_Smooth_M (AutoDXT)
+[2015.10.28-06.35.06:066][290]LogTexture:Display: Building textures: T_CobbleStone_Smooth_D (AutoDXT)
+[2015.10.28-06.35.09:569][290]LogTexture:Display: Building textures: T_CobbleStone_Smooth_N (BC5)
+[2015.10.28-06.35.10:022][290]LogMaterial: Missing cached shader map for material M_CobbleStone_Smooth, compiling. 
+[2015.10.28-06.35.10:218][290]LogTexture:Display: Building textures: T_Concrete_Grime_D (AutoDXT)
+[2015.10.28-06.35.14:333][290]LogTexture:Display: Building textures: T_Metal_Rust_N (BC5)
+[2015.10.28-06.35.14:771][290]LogMaterial: Missing cached shader map for material M_Concrete_Grime, compiling. 
+[2015.10.28-06.35.14:924][290]LogTexture:Display: Building textures: T_Concrete_Panels_D (AutoDXT)
+[2015.10.28-06.35.18:473][290]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2015.10.28-06.35.18:474][290]LogCrashTracker: 
+
+
+[2015.10.28-06.35.26:242][290]LogCrashTracker: 
+
+
+[2015.10.28-06.35.26:242][290]LogWindows: === Critical error: ===
+Assertion failed: !IsLoading() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.7\Engine\Source\Runtime\CoreUObject\Private\UObject\GarbageCollection.cpp] [Line: 1053] 
+
+
+
+KERNELBASE.dll!UnknownFunction (0x000007fefd26940d) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!FOutputDeviceWindowsError::Serialize() (0x000007feb94f8074) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformoutputdevices.cpp:95]
+UE4Editor-Core.dll!FOutputDevice::Logf__VA() (0x000007feb9377878) + 159 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\outputdevice.cpp:144]
+UE4Editor-Core.dll!FDebug::AssertFailed() (0x000007feb9358b17) + 62 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\outputdevice.cpp:224]
+UE4Editor-CoreUObject.dll!CollectGarbage() (0x000007febeeee30d) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\garbagecollection.cpp:1057]
+UE4Editor-UnrealEd.dll!FEditorFileUtils::SaveDirtyPackages() (0x000007feb4f9c9e3) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\filehelpers.cpp:2552]
+UE4Editor-MainFrame.dll!FMainFrameHandler::CanCloseEditor() (0x000007feaa5e5ec6) + 38 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\mainframe\private\frame\mainframehandler.h:124]
+UE4Editor-MainFrame.dll!FMainFrameHandler::CloseRootWindowOverride() (0x000007feaa5e6a4e) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\mainframe\private\frame\mainframehandler.h:143]
+UE4Editor-SlateCore.dll!SWindow::RequestDestroyWindow() (0x000007febe89a51c) + 31 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swindow.cpp:1055]
+UE4Editor-Slate.dll!FSlateApplication::OnWindowClose() (0x000007febe089065) + 6 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5011]
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() (0x000007feb9452e56) + 54 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1509]
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() (0x000007feb9445d2e) + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1669]
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() (0x000007feb9454d50) + 41 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:742]
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() (0x000007feb9443192) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:604]
+USER32.dll!UnknownFunction (0x0000000077179bd1) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00000000771798da) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!FWindowsApplication::PumpMessages() (0x000007feb94550f9) + 11 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1681]
+UE4Editor-Slate.dll!FSlateApplication::Tick() (0x000007febe0afc41) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1211]
+UE4Editor-UnrealEd.dll!TickSlate() (0x000007feb4fa1cee) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\feedbackcontexteditor.cpp:315]
+UE4Editor-UnrealEd.dll!FFeedbackContextEditor::ProgressReported() (0x000007feb4f8f88f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\feedbackcontexteditor.cpp:452]
+UE4Editor-Core.dll!FFeedbackContext::UpdateUI() (0x000007feb939168b) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\feedbackcontext.cpp:27]
+UE4Editor-Core.dll!FFeedbackContext::RequestUpdateUI() (0x000007feb938592f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\feedbackcontext.cpp:19]
+UE4Editor-Engine.dll!FTextureStatusMessageContext::~FTextureStatusMessageContext() (0x000007feb7211165) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!FTextureCacheDerivedDataWorker::BuildTexture() (0x000007feb721d519) + 67 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\texturederiveddata.cpp:807]
+UE4Editor-Engine.dll!FTexturePlatformData::FinishCache() (0x000007feb723502a) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\texturederiveddata.cpp:988]
+UE4Editor-Engine.dll!UTexture::FinishCachePlatformData() (0x000007feb72350d3) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\texturederiveddata.cpp:1574]
+UE4Editor-Engine.dll!UTexture2D::PostLoad() (0x000007feb72511f0) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\texture2d.cpp:356]
+UE4Editor-CoreUObject.dll!UObject::ConditionalPostLoad() (0x000007febeeef4b7) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\obj.cpp:628]
+UE4Editor-CoreUObject.dll!EndLoad() (0x000007febefbc55c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1126]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() (0x000007febefc7e88) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:906]
+UE4Editor-CoreUObject.dll!ResolveName() (0x000007febefd0f2b) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:610]
+UE4Editor-CoreUObject.dll!StaticLoadObject() (0x000007febefd63af) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:697]
+UE4Editor-ContentBrowser.dll!ContentBrowserUtils::LoadAssetsIfNeeded() (0x000007feaaf39386) + 66 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\contentbrowser\private\contentbrowserutils.cpp:341]
+UE4Editor-ContentBrowser.dll!ContentBrowserUtils::DeleteFolders() (0x000007feaaebc904) + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\contentbrowser\private\contentbrowserutils.cpp:542]
+UE4Editor-ContentBrowser.dll!FPathContextMenu::ExecuteDeleteFolderConfirmed() (0x000007feaaeceab1) + 20 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\contentbrowser\private\pathcontextmenu.cpp:707]
+UE4Editor-ContentBrowser.dll!TMemberFunctionCaller<FPathContextMenu,FReply (__cdecl FPathContextMenu::*)(void) __ptr64>::operator()<>() (0x000007feaad765d3) + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstanceinterface_variadics.h:161]
+UE4Editor-ContentBrowser.dll!TTupleImpl<TIntegerSequence<> >::ApplyAfter_ExplicitReturnType<FReply,TMemberFunctionCaller<FPathContextMenu,FReply (__cdecl FPathContextMenu::*)(void) __ptr64> >() (0x000007feaad7d719) + 19 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\tuple.h:113]
+UE4Editor-ContentBrowser.dll!TBaseSPMethodDelegateInstance<0,FPathContextMenu,0,FReply __cdecl(void)>::Execute() (0x000007feaaec7bf9) + 36 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:282]
+UE4Editor-ContentBrowser.dll!TBaseDelegate<FReply>::Execute() (0x000007feaaec2d5a) + 6 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegatesignatureimpl_variadics.inl:439]
+UE4Editor-ContentBrowser.dll!SContentBrowserConfirmPopup::YesClicked() (0x000007feaafa40d3) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\contentbrowser\private\contentbrowserutils.cpp:211]
+UE4Editor-ContentBrowser.dll!TMemberFunctionCaller<SContentBrowserConfirmPopup,FReply (__cdecl SContentBrowserConfirmPopup::*)(void) __ptr64>::operator()<>() (0x000007feaad777d7) + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstanceinterface_variadics.h:161]
+UE4Editor-ContentBrowser.dll!TTupleImpl<TIntegerSequence<> >::ApplyAfter_ExplicitReturnType<FReply,TMemberFunctionCaller<SContentBrowserConfirmPopup,FReply (__cdecl SContentBrowserConfirmPopup::*)(void) __ptr64> >() (0x000007feaad7d869) + 19 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\tuple.h:113]
+UE4Editor-ContentBrowser.dll!TBaseSPMethodDelegateInstance<0,SContentBrowserConfirmPopup,0,FReply __cdecl(void)>::Execute() (0x000007feaaecb4c9) + 36 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:282]
+UE4Editor-Slate.dll!TBaseDelegate<FReply>::Execute() (0x000007febe1e153a) + 6 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegatesignatureimpl_variadics.inl:439]
+UE4Editor-Slate.dll!SButton::OnMouseButtonUp() (0x000007febe20fd63) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:228]
+UE4Editor-Slate.dll!<lambda_de96dc3471181973108233c6db1f9843>::operator()() (0x000007febe02dd7c) + 24 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3985]
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_de96dc3471181973108233c6db1f9843> >() (0x000007febdfe8407) + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:202]
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() (0x000007febe094f29) + 75 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3988]
+UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() (0x000007febe084926) + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3949]
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() (0x000007feb9453975) + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1373]
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() (0x000007feb9445d2e) + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1669]
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() (0x000007feb9454d50) + 41 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:742]
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() (0x000007feb9443192) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:604]
+USER32.dll!UnknownFunction (0x0000000077179bd1) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00000000771798da) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() (0x000007feb94f3ec6) + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:774]
+UE4Editor.exe!FEngineLoop::Tick() (0x000000013f5a00a9) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launchengineloop.cpp:2233]
+UE4Editor.exe!GuardedMain() (0x000000013f59267c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() (0x000000013f5926ea) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x000000013f5a2219) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x000000013f5a3159) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+kernel32.dll!UnknownFunction (0x00000000770559ed) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x000000007728c541) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x000000007728c541) + 0 bytes [UnknownFile:0]
+
