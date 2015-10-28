@@ -26,7 +26,6 @@
                   
                 //uses local normals, see: http://answers.unity3d.com/questions/532973/worldnormalvector-how-is-it-calculated.html 
                 //to convert to world normals
-                //also see comp graphics assessment as it has this working
                 float lightDotVertNormal = dot(light, v.normal);                
                   
                 float atten = 10;
