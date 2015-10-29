@@ -23,11 +23,14 @@
                 float4 light = float4(1.0, 1.0, 1.0, 1.0);
                 
                 light = normalize(light);
-                  
-                //uses local normals, see: http://answers.unity3d.com/questions/532973/worldnormalvector-how-is-it-calculated.html 
-                //to convert to world normals
-                //also see comp graphics assessment as it has this working
-                float lightDotVertNormal = dot(light, v.normal);                
+                                  
+                // local normals converted to world : http://forum.unity3d.com/threads/rotating-normal-to-world-space.162056/           
+                //built in values ref: http://docs.unity3d.com/462/Documentation/Manual/SL-BuiltinValues.html
+                // _Object2World	~	float4x4	~	Current model matrix.
+                                                        
+                float lightDotVertNormal = dot(light, mul( _Object2World, float4(v.normal, 0.0)));
+                
+                
                   
                 float atten = 10;
                 
